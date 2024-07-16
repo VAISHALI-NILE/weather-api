@@ -14,7 +14,7 @@ body {
 }
 
 .weather-card {
-  margin: 20px;
+  margin-top: 150px;
   background: white;
   border-radius: 20px;
   border: 1.8px solid white;
