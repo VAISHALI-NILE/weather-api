@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-card">
+            <div class="search-bar">
+                <input id="city-input" type="text">
+                <img id="search-btn" src="images/search-icon.png" style="width: 30px; position: absolute; top:28px; margin-left: 16px;" alt="">
+            </div>
+            <div class="weather-info">
+                <div class="bg-shape"></div>
+                <div  id="weather-icon" class="weather-icon"></div>
+                <div class="temp" id="temp">29° </div> 
+                <div class="desc">Sunny</div>
+            </div>
+            <div class="date" id="time">Wednesday, 7 July</div>
+            <div class="details">
+                <div class="detail" id="wind-detail"><img src="images/wind-icon.png" style="width: 25px;" alt=""><br>25 km/hr</div>
+                <div class="detail" id="humidity-detail"><img src="images/drop-icon.png" style="width: 25px;" alt=""><br>74%</div>
+                <div class="detail" id="wind-speed-detail"><img src="images/clock-icon.png" style="width: 25px;" alt=""><br>2 m/s</div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
